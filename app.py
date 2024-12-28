@@ -1,6 +1,6 @@
 import streamlit as st
 import joblib
-m = joblib.load('e:/datasets/hdp_model.joblib')
+m = joblib.load('hdp_model.joblib')
 
 st.title('Heart Disease Prediction')
 st.write('Enter Features such as Age,Gender Etc;;')
